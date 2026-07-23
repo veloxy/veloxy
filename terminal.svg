@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 376" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14">
-  <rect x="0.5" y="0.5" width="699" height="375" rx="10" fill="#171221" stroke="#3d2e5c"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 416" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14">
+  <rect x="0.5" y="0.5" width="699" height="415" rx="10" fill="#171221" stroke="#3d2e5c"/>
   <path d="M0.5 10.5 a10 10 0 0 1 10 -10 h679 a10 10 0 0 1 10 10 v29 h-699 z" fill="#1f1830"/>
   <line x1="0.5" y1="39.5" x2="699.5" y2="39.5" stroke="#3d2e5c"/>
   <circle cx="22" cy="20" r="6" fill="#ff5f5f"/>
@@ -7,20 +7,82 @@
   <circle cx="62" cy="20" r="6" fill="#5fff87"/>
   <text x="350" y="25" text-anchor="middle" fill="#565073" font-size="12">ghostty — veloxy@github: ~</text>
 
-  <g fill="#a78bff" transform="translate(17.0 77.4) scale(2.4)"><path d="M78.549 28.899L54 14.725a8 8 0 0 0-8 0L21.451 28.899a8 8 0 0 0-4 6.928v28.348a8.003 8.003 0 0 0 4 6.929L46 85.275a8.001 8.001 0 0 0 8 0l24.549-14.172c2.475-1.43 4-4.07 4-6.929V35.827a8.002 8.002 0 0 0-4-6.928zM50 21.653l20.549 11.865-20.547 11.863-20.551-11.863L50 21.653zM25.451 64.175V40.446L46 52.31v23.728L25.451 64.175zM54 76.037V52.311l20.549-11.863v23.728L54 76.037z"/></g>
-
   <g xml:space="preserve" fill="#e8e3f2">
-    <text x="24" y="72"><tspan fill="#5fff87">veloxy@github</tspan><tspan fill="#e8e3f2">:</tspan><tspan fill="#875fff">~</tspan><tspan fill="#e8e3f2">&gt; </tspan><tspan fill="#e8e3f2">neofetch</tspan></text>
-    <text x="270" y="114"><tspan fill="#ff5fd7" font-weight="bold">veloxy@github</tspan></text>
-    <text x="270" y="135" textLength="109.2" lengthAdjust="spacingAndGlyphs" fill="#ff5fd7">─────────────</text>
-    <text x="270" y="156"><tspan fill="#ff5fd7" font-weight="bold" textLength="25.2" lengthAdjust="spacingAndGlyphs">OS:</tspan><tspan x="362.4" fill="#e8e3f2">macOS</tspan></text>
-    <text x="270" y="177"><tspan fill="#ff5fd7" font-weight="bold" textLength="58.8" lengthAdjust="spacingAndGlyphs">Uptime:</tspan><tspan x="362.4" fill="#e8e3f2">15+ years on GitHub</tspan></text>
-    <text x="270" y="198"><tspan fill="#ff5fd7" font-weight="bold" textLength="50.4" lengthAdjust="spacingAndGlyphs">Shell:</tspan><tspan x="362.4" fill="#e8e3f2">nushell</tspan></text>
-    <text x="270" y="219"><tspan fill="#ff5fd7" font-weight="bold" textLength="58.8" lengthAdjust="spacingAndGlyphs">Editor:</tspan><tspan x="362.4" fill="#e8e3f2">PhpStorm</tspan></text>
-    <text x="270" y="240"><tspan fill="#ff5fd7" font-weight="bold" textLength="75.6" lengthAdjust="spacingAndGlyphs">Terminal:</tspan><tspan x="362.4" fill="#e8e3f2">Ghostty</tspan></text>
-    <text x="270" y="261"><tspan fill="#ff5fd7" font-weight="bold" textLength="84.0" lengthAdjust="spacingAndGlyphs">Languages:</tspan><tspan x="362.4" fill="#e8e3f2">PHP · JS/TS · a long tail of others</tspan></text>
-    <text x="270" y="282"><tspan fill="#ff5fd7" font-weight="bold" textLength="58.8" lengthAdjust="spacingAndGlyphs">Locale:</tspan><tspan x="362.4" fill="#e8e3f2">nl_BE.UTF-8 · en_US.UTF-8</tspan></text>
-    <text x="24" y="324"><tspan fill="#5fff87">veloxy@github</tspan><tspan fill="#e8e3f2">:</tspan><tspan fill="#875fff">~</tspan><tspan fill="#e8e3f2">&gt; </tspan><tspan fill="#e8e3f2">http get https://sourcebox.be</tspan></text>
-    <text x="24" y="345"><tspan fill="#5fff87">veloxy@github</tspan><tspan fill="#e8e3f2">:</tspan><tspan fill="#875fff">~</tspan><tspan fill="#e8e3f2">&gt; </tspan><tspan fill="#ff5fd7">▌<animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+    <clipPath id="type1"><rect x="51" y="78" height="19" width="0"><animate attributeName="width" values="0.0;8.4;16.8;25.2;33.6;42.0;50.4;58.8;67.2" keyTimes="0.0000;0.1250;0.2500;0.3750;0.5000;0.6250;0.7500;0.8750;1.0000" calcMode="discrete" begin="0.4s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="type2"><rect x="51" y="334" height="19" width="0"><animate attributeName="width" values="0.0;8.4;16.8;25.2;33.6;42.0;50.4;58.8;67.2;75.6;84.0;92.4;100.8;109.2;117.6;126.0;134.4;142.8;151.2;159.6;168.0;176.4;184.8;193.2;201.6;210.0;218.4;226.8;235.2;243.6" keyTimes="0.0000;0.0345;0.0690;0.1034;0.1379;0.1724;0.2069;0.2414;0.2759;0.3103;0.3448;0.3793;0.4138;0.4483;0.4828;0.5172;0.5517;0.5862;0.6207;0.6552;0.6897;0.7241;0.7586;0.7931;0.8276;0.8621;0.8966;0.9310;0.9655;1.0000" calcMode="discrete" begin="2.0s" dur="2.0s" fill="freeze"/></rect></clipPath>
+    <rect x="53" y="53" width="73" height="18" rx="9" fill="#26203a"/>
+    <rect x="40" y="53" width="26" height="18" rx="9" fill="#a78bff"/>
+    <g transform="translate(47.50 65.96) scale(0.00646 -0.00646)"><path fill="#171221" d="M680 1298H168Q100 1298 50.0 1248.0Q0 1198 0 1126V102Q0 30 50.0 -20.0Q100 -70 168 -70H1536Q1604 -70 1654.0 -20.0Q1704 30 1704 102V954Q1704 1026 1654.0 1076.0Q1604 1126 1536 1126H852Z"/></g>
+    <text x="74" y="66" font-size="12"><tspan fill="#e8e3f2">veloxy</tspan></text>
+    <rect x="147.2" y="53" width="95" height="18" rx="9" fill="#26203a"/>
+    <rect x="134.2" y="53" width="26" height="18" rx="9" fill="#ff5fd7"/>
+    <g transform="translate(142.92 66.48) scale(0.00730 -0.00730)"><path fill="#171221" d="M1174 966Q1174 903 1142.0 849.5Q1110 796 1056 764V732Q1056 726 1055.5 715.5Q1055 705 1050.5 673.0Q1046 641 1038.0 610.0Q1030 579 1013.5 536.5Q997 494 974.5 457.5Q952 421 915.5 384.0Q879 347 834.5 321.0Q790 295 726.0 278.5Q662 262 587 262Q469 262 407 186Q470 119 470 28Q470 -69 401.0 -138.5Q332 -208 235.0 -208.0Q138 -208 69.0 -138.5Q0 -69 0 28Q0 91 31.5 144.5Q63 198 117 230V998Q63 1030 31.5 1083.5Q0 1137 0 1200Q0 1298 69.0 1367.0Q138 1436 235.0 1436.0Q332 1436 401.0 1367.0Q470 1298 470 1200Q470 1137 438.0 1083.5Q406 1030 352 998V444Q451 496 587 496Q635 496 674.0 509.0Q713 522 736.5 543.0Q760 564 778.0 589.0Q796 614 804.0 639.0Q812 664 816.5 685.0Q821 706 821 719L822 732V764Q768 796 736.0 849.5Q704 903 704 966Q704 1064 773.0 1132.0Q842 1200 939.0 1200.0Q1036 1200 1105.0 1132.0Q1174 1064 1174 966ZM318.0 1283.5Q284 1318 235.0 1318.0Q186 1318 152.0 1283.5Q118 1249 118.0 1200.5Q118 1152 152.0 1118.0Q186 1084 235.0 1084.0Q284 1084 318.0 1118.0Q352 1152 352.0 1200.5Q352 1249 318.0 1283.5ZM152.0 -55.5Q186 -90 235.0 -90.0Q284 -90 318.0 -55.5Q352 -21 352.0 27.5Q352 76 318.0 110.0Q284 144 235.0 144.0Q186 144 152.0 110.0Q118 76 118.0 27.5Q118 -21 152.0 -55.5ZM856.0 883.0Q890 848 939.0 848.0Q988 848 1022.0 883.0Q1056 918 1056.0 966.5Q1056 1015 1022.0 1049.5Q988 1084 939.0 1084.0Q890 1084 856.0 1049.5Q822 1015 822.0 966.5Q822 918 856.0 883.0Z"/></g>
+    <text x="168.2" y="66" font-size="12"><tspan fill="#e8e3f2">main</tspan><tspan fill="#ffaf5f"> !2+1</tspan></text>
+    <rect x="263.0" y="53" width="52" height="18" rx="9" fill="#26203a"/>
+    <rect x="250.0" y="53" width="26" height="18" rx="9" fill="#5fff87"/>
+    <g transform="translate(256.50 66.68) scale(0.00763 -0.00763)"><path fill="#171221" d="M1492 314Q1492 298 1480.0 286.0Q1468 274 1450.0 274.0Q1432 274 1420.0 286.0Q1408 298 1408 314V914Q1408 994 1358 1062Q1309 1129 1228 1170Q1149 1210 1064 1210H340Q200 1210 100.0 1110.0Q0 1010 0 870V18H340V358H768V18H1108V402Q1108 418 1120.0 430.0Q1132 442 1150.0 442.0Q1168 442 1180.0 430.0Q1192 418 1192 402V274Q1192 165 1268 92Q1345 18 1450 18Q1556 18 1630.0 92.0Q1704 166 1704 274V442H1492Z"/></g>
+    <text x="284.0" y="66" font-size="12"><tspan fill="#e8e3f2">8.4</tspan></text>
+    <rect x="335.6" y="53" width="109" height="18" rx="9" fill="#26203a"/>
+    <rect x="322.6" y="53" width="26" height="18" rx="9" fill="#5fe7e7"/>
+    <g transform="translate(329.10 66.25) scale(0.00691 -0.00691)"><path fill="#171221" d="M940 1466Q1012 1466 1062.0 1416.0Q1112 1366 1112 1298Q1112 1250 1088 1210Q1064 1169 1024 1150V1042H1112Q1273 1042 1410 960Q1550 877 1628 742Q1708 605 1708 442H1792Q1828 442 1854.0 418.0Q1880 394 1880 358V102Q1880 66 1854.0 42.0Q1828 18 1792 18H1708V-70Q1708 -138 1658.0 -188.0Q1608 -238 1536 -238H344Q272 -238 222.0 -188.0Q172 -138 172 -70V18H88Q52 18 26.0 42.0Q0 66 0 102V358Q0 394 26.0 418.0Q52 442 88 442H172Q172 605 252 742Q330 877 470 960Q607 1042 768 1042H856V1150Q816 1169 792 1210Q768 1250 768 1298Q768 1366 818.0 1416.0Q868 1466 940 1466ZM556 530Q467 530 406 466Q344 401 344 314Q344 226 406.0 164.0Q468 102 556.0 102.0Q644 102 706.0 164.0Q768 226 768 314Q768 401 706 466Q645 530 556 530ZM1324 530Q1235 530 1174 466Q1112 401 1112 314Q1112 226 1174.0 164.0Q1236 102 1324.0 102.0Q1412 102 1474.0 164.0Q1536 226 1536 314Q1536 401 1474 466Q1413 530 1324 530Z"/></g>
+    <text x="356.6" y="66" font-size="12"><tspan fill="#5fff87">▸2</tspan><tspan fill="#e8e3f2"> ✓4</tspan><tspan fill="#ffaf5f"> !1</tspan><tspan fill="#565073"> ~1</tspan></text>
+    <path d="M37 62 h-4 a6 6 0 0 0 -6 6 v13 a6 6 0 0 0 6 6 h4" stroke="#565073" stroke-width="1.3" fill="none"/>
+    <text x="35" y="92" fill="#875fff" font-weight="bold">❯</text>
+    <text x="51" y="92" clip-path="url(#type1)"><tspan fill="#5fe7e7">neofetch</tspan></text>
+  <g opacity="0"><set attributeName="opacity" to="1" begin="1.4s" fill="freeze"/>
+  <g fill="#a78bff" transform="translate(17.0 84.4) scale(2.4)"><g><animateTransform attributeName="transform" type="translate" values="0 0; 0 -1.5; 0 0" dur="5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/><path d="M78.549 28.899L54 14.725a8 8 0 0 0-8 0L21.451 28.899a8 8 0 0 0-4 6.928v28.348a8.003 8.003 0 0 0 4 6.929L46 85.275a8.001 8.001 0 0 0 8 0l24.549-14.172c2.475-1.43 4-4.07 4-6.929V35.827a8.002 8.002 0 0 0-4-6.928zM50 21.653l20.549 11.865-20.547 11.863-20.551-11.863L50 21.653zM25.451 64.175V40.446L46 52.31v23.728L25.451 64.175zM54 76.037V52.311l20.549-11.863v23.728L54 76.037z"/></g></g>
+    <text x="270" y="121"><tspan fill="#ff5fd7" font-weight="bold">veloxy@github</tspan></text>
+    <text x="270" y="142" textLength="109.2" lengthAdjust="spacingAndGlyphs" fill="#ff5fd7">─────────────</text>
+    <text x="270" y="163"><tspan fill="#ff5fd7" font-weight="bold" textLength="25.2" lengthAdjust="spacingAndGlyphs">OS:</tspan><tspan x="362.4" fill="#e8e3f2">macOS</tspan></text>
+    <text x="270" y="184"><tspan fill="#ff5fd7" font-weight="bold" textLength="58.8" lengthAdjust="spacingAndGlyphs">Uptime:</tspan><tspan x="362.4" fill="#e8e3f2">15+ years on GitHub</tspan></text>
+    <text x="270" y="205"><tspan fill="#ff5fd7" font-weight="bold" textLength="50.4" lengthAdjust="spacingAndGlyphs">Shell:</tspan><tspan x="362.4" fill="#e8e3f2">nushell</tspan></text>
+    <text x="270" y="226"><tspan fill="#ff5fd7" font-weight="bold" textLength="58.8" lengthAdjust="spacingAndGlyphs">Editor:</tspan><tspan x="362.4" fill="#e8e3f2">PhpStorm</tspan></text>
+    <text x="270" y="247"><tspan fill="#ff5fd7" font-weight="bold" textLength="75.6" lengthAdjust="spacingAndGlyphs">Terminal:</tspan><tspan x="362.4" fill="#e8e3f2">Ghostty</tspan></text>
+    <text x="270" y="268"><tspan fill="#ff5fd7" font-weight="bold" textLength="84.0" lengthAdjust="spacingAndGlyphs">Languages:</tspan><tspan x="362.4" fill="#e8e3f2">PHP · JS/TS · a long tail of others</tspan></text>
+    <text x="270" y="289"><tspan fill="#ff5fd7" font-weight="bold" textLength="58.8" lengthAdjust="spacingAndGlyphs">Locale:</tspan><tspan x="362.4" fill="#e8e3f2">nl_BE.UTF-8 · en_US.UTF-8</tspan></text>
+  </g>
+  <g opacity="0"><set attributeName="opacity" to="1" begin="1.7s" fill="freeze"/>
+    <rect x="53" y="309" width="73" height="18" rx="9" fill="#26203a"/>
+    <rect x="40" y="309" width="26" height="18" rx="9" fill="#a78bff"/>
+    <g transform="translate(47.50 321.96) scale(0.00646 -0.00646)"><path fill="#171221" d="M680 1298H168Q100 1298 50.0 1248.0Q0 1198 0 1126V102Q0 30 50.0 -20.0Q100 -70 168 -70H1536Q1604 -70 1654.0 -20.0Q1704 30 1704 102V954Q1704 1026 1654.0 1076.0Q1604 1126 1536 1126H852Z"/></g>
+    <text x="74" y="322" font-size="12"><tspan fill="#e8e3f2">veloxy</tspan></text>
+    <rect x="147.2" y="309" width="95" height="18" rx="9" fill="#26203a"/>
+    <rect x="134.2" y="309" width="26" height="18" rx="9" fill="#ff5fd7"/>
+    <g transform="translate(142.92 322.48) scale(0.00730 -0.00730)"><path fill="#171221" d="M1174 966Q1174 903 1142.0 849.5Q1110 796 1056 764V732Q1056 726 1055.5 715.5Q1055 705 1050.5 673.0Q1046 641 1038.0 610.0Q1030 579 1013.5 536.5Q997 494 974.5 457.5Q952 421 915.5 384.0Q879 347 834.5 321.0Q790 295 726.0 278.5Q662 262 587 262Q469 262 407 186Q470 119 470 28Q470 -69 401.0 -138.5Q332 -208 235.0 -208.0Q138 -208 69.0 -138.5Q0 -69 0 28Q0 91 31.5 144.5Q63 198 117 230V998Q63 1030 31.5 1083.5Q0 1137 0 1200Q0 1298 69.0 1367.0Q138 1436 235.0 1436.0Q332 1436 401.0 1367.0Q470 1298 470 1200Q470 1137 438.0 1083.5Q406 1030 352 998V444Q451 496 587 496Q635 496 674.0 509.0Q713 522 736.5 543.0Q760 564 778.0 589.0Q796 614 804.0 639.0Q812 664 816.5 685.0Q821 706 821 719L822 732V764Q768 796 736.0 849.5Q704 903 704 966Q704 1064 773.0 1132.0Q842 1200 939.0 1200.0Q1036 1200 1105.0 1132.0Q1174 1064 1174 966ZM318.0 1283.5Q284 1318 235.0 1318.0Q186 1318 152.0 1283.5Q118 1249 118.0 1200.5Q118 1152 152.0 1118.0Q186 1084 235.0 1084.0Q284 1084 318.0 1118.0Q352 1152 352.0 1200.5Q352 1249 318.0 1283.5ZM152.0 -55.5Q186 -90 235.0 -90.0Q284 -90 318.0 -55.5Q352 -21 352.0 27.5Q352 76 318.0 110.0Q284 144 235.0 144.0Q186 144 152.0 110.0Q118 76 118.0 27.5Q118 -21 152.0 -55.5ZM856.0 883.0Q890 848 939.0 848.0Q988 848 1022.0 883.0Q1056 918 1056.0 966.5Q1056 1015 1022.0 1049.5Q988 1084 939.0 1084.0Q890 1084 856.0 1049.5Q822 1015 822.0 966.5Q822 918 856.0 883.0Z"/></g>
+    <text x="168.2" y="322" font-size="12"><tspan fill="#e8e3f2">main</tspan><tspan fill="#ffaf5f"> !2+1</tspan></text>
+    <rect x="263.0" y="309" width="52" height="18" rx="9" fill="#26203a"/>
+    <rect x="250.0" y="309" width="26" height="18" rx="9" fill="#5fff87"/>
+    <g transform="translate(256.50 322.68) scale(0.00763 -0.00763)"><path fill="#171221" d="M1492 314Q1492 298 1480.0 286.0Q1468 274 1450.0 274.0Q1432 274 1420.0 286.0Q1408 298 1408 314V914Q1408 994 1358 1062Q1309 1129 1228 1170Q1149 1210 1064 1210H340Q200 1210 100.0 1110.0Q0 1010 0 870V18H340V358H768V18H1108V402Q1108 418 1120.0 430.0Q1132 442 1150.0 442.0Q1168 442 1180.0 430.0Q1192 418 1192 402V274Q1192 165 1268 92Q1345 18 1450 18Q1556 18 1630.0 92.0Q1704 166 1704 274V442H1492Z"/></g>
+    <text x="284.0" y="322" font-size="12"><tspan fill="#e8e3f2">8.4</tspan></text>
+    <rect x="335.6" y="309" width="109" height="18" rx="9" fill="#26203a"/>
+    <rect x="322.6" y="309" width="26" height="18" rx="9" fill="#5fe7e7"/>
+    <g transform="translate(329.10 322.25) scale(0.00691 -0.00691)"><path fill="#171221" d="M940 1466Q1012 1466 1062.0 1416.0Q1112 1366 1112 1298Q1112 1250 1088 1210Q1064 1169 1024 1150V1042H1112Q1273 1042 1410 960Q1550 877 1628 742Q1708 605 1708 442H1792Q1828 442 1854.0 418.0Q1880 394 1880 358V102Q1880 66 1854.0 42.0Q1828 18 1792 18H1708V-70Q1708 -138 1658.0 -188.0Q1608 -238 1536 -238H344Q272 -238 222.0 -188.0Q172 -138 172 -70V18H88Q52 18 26.0 42.0Q0 66 0 102V358Q0 394 26.0 418.0Q52 442 88 442H172Q172 605 252 742Q330 877 470 960Q607 1042 768 1042H856V1150Q816 1169 792 1210Q768 1250 768 1298Q768 1366 818.0 1416.0Q868 1466 940 1466ZM556 530Q467 530 406 466Q344 401 344 314Q344 226 406.0 164.0Q468 102 556.0 102.0Q644 102 706.0 164.0Q768 226 768 314Q768 401 706 466Q645 530 556 530ZM1324 530Q1235 530 1174 466Q1112 401 1112 314Q1112 226 1174.0 164.0Q1236 102 1324.0 102.0Q1412 102 1474.0 164.0Q1536 226 1536 314Q1536 401 1474 466Q1413 530 1324 530Z"/></g>
+    <text x="356.6" y="322" font-size="12"><tspan fill="#5fff87">▸2</tspan><tspan fill="#e8e3f2"> ✓4</tspan><tspan fill="#ffaf5f"> !1</tspan><tspan fill="#565073"> ~1</tspan></text>
+    <path d="M37 318 h-4 a6 6 0 0 0 -6 6 v13 a6 6 0 0 0 6 6 h4" stroke="#565073" stroke-width="1.3" fill="none"/>
+    <text x="35" y="348" fill="#875fff" font-weight="bold">❯</text>
+    <text x="51" y="348" clip-path="url(#type2)"><tspan fill="#5fe7e7">http get</tspan><tspan fill="#ffe787"> https://sourcebox.be</tspan></text>
+  </g>
+  <g opacity="0"><set attributeName="opacity" to="1" begin="4.3s" fill="freeze"/>
+    <rect x="53" y="363" width="73" height="18" rx="9" fill="#26203a"/>
+    <rect x="40" y="363" width="26" height="18" rx="9" fill="#a78bff"/>
+    <g transform="translate(47.50 375.96) scale(0.00646 -0.00646)"><path fill="#171221" d="M680 1298H168Q100 1298 50.0 1248.0Q0 1198 0 1126V102Q0 30 50.0 -20.0Q100 -70 168 -70H1536Q1604 -70 1654.0 -20.0Q1704 30 1704 102V954Q1704 1026 1654.0 1076.0Q1604 1126 1536 1126H852Z"/></g>
+    <text x="74" y="376" font-size="12"><tspan fill="#e8e3f2">veloxy</tspan></text>
+    <rect x="147.2" y="363" width="95" height="18" rx="9" fill="#26203a"/>
+    <rect x="134.2" y="363" width="26" height="18" rx="9" fill="#ff5fd7"/>
+    <g transform="translate(142.92 376.48) scale(0.00730 -0.00730)"><path fill="#171221" d="M1174 966Q1174 903 1142.0 849.5Q1110 796 1056 764V732Q1056 726 1055.5 715.5Q1055 705 1050.5 673.0Q1046 641 1038.0 610.0Q1030 579 1013.5 536.5Q997 494 974.5 457.5Q952 421 915.5 384.0Q879 347 834.5 321.0Q790 295 726.0 278.5Q662 262 587 262Q469 262 407 186Q470 119 470 28Q470 -69 401.0 -138.5Q332 -208 235.0 -208.0Q138 -208 69.0 -138.5Q0 -69 0 28Q0 91 31.5 144.5Q63 198 117 230V998Q63 1030 31.5 1083.5Q0 1137 0 1200Q0 1298 69.0 1367.0Q138 1436 235.0 1436.0Q332 1436 401.0 1367.0Q470 1298 470 1200Q470 1137 438.0 1083.5Q406 1030 352 998V444Q451 496 587 496Q635 496 674.0 509.0Q713 522 736.5 543.0Q760 564 778.0 589.0Q796 614 804.0 639.0Q812 664 816.5 685.0Q821 706 821 719L822 732V764Q768 796 736.0 849.5Q704 903 704 966Q704 1064 773.0 1132.0Q842 1200 939.0 1200.0Q1036 1200 1105.0 1132.0Q1174 1064 1174 966ZM318.0 1283.5Q284 1318 235.0 1318.0Q186 1318 152.0 1283.5Q118 1249 118.0 1200.5Q118 1152 152.0 1118.0Q186 1084 235.0 1084.0Q284 1084 318.0 1118.0Q352 1152 352.0 1200.5Q352 1249 318.0 1283.5ZM152.0 -55.5Q186 -90 235.0 -90.0Q284 -90 318.0 -55.5Q352 -21 352.0 27.5Q352 76 318.0 110.0Q284 144 235.0 144.0Q186 144 152.0 110.0Q118 76 118.0 27.5Q118 -21 152.0 -55.5ZM856.0 883.0Q890 848 939.0 848.0Q988 848 1022.0 883.0Q1056 918 1056.0 966.5Q1056 1015 1022.0 1049.5Q988 1084 939.0 1084.0Q890 1084 856.0 1049.5Q822 1015 822.0 966.5Q822 918 856.0 883.0Z"/></g>
+    <text x="168.2" y="376" font-size="12"><tspan fill="#e8e3f2">main</tspan><tspan fill="#ffaf5f"> !2+1</tspan></text>
+    <rect x="263.0" y="363" width="52" height="18" rx="9" fill="#26203a"/>
+    <rect x="250.0" y="363" width="26" height="18" rx="9" fill="#5fff87"/>
+    <g transform="translate(256.50 376.68) scale(0.00763 -0.00763)"><path fill="#171221" d="M1492 314Q1492 298 1480.0 286.0Q1468 274 1450.0 274.0Q1432 274 1420.0 286.0Q1408 298 1408 314V914Q1408 994 1358 1062Q1309 1129 1228 1170Q1149 1210 1064 1210H340Q200 1210 100.0 1110.0Q0 1010 0 870V18H340V358H768V18H1108V402Q1108 418 1120.0 430.0Q1132 442 1150.0 442.0Q1168 442 1180.0 430.0Q1192 418 1192 402V274Q1192 165 1268 92Q1345 18 1450 18Q1556 18 1630.0 92.0Q1704 166 1704 274V442H1492Z"/></g>
+    <text x="284.0" y="376" font-size="12"><tspan fill="#e8e3f2">8.4</tspan></text>
+    <rect x="335.6" y="363" width="109" height="18" rx="9" fill="#26203a"/>
+    <rect x="322.6" y="363" width="26" height="18" rx="9" fill="#5fe7e7"/>
+    <g transform="translate(329.10 376.25) scale(0.00691 -0.00691)"><path fill="#171221" d="M940 1466Q1012 1466 1062.0 1416.0Q1112 1366 1112 1298Q1112 1250 1088 1210Q1064 1169 1024 1150V1042H1112Q1273 1042 1410 960Q1550 877 1628 742Q1708 605 1708 442H1792Q1828 442 1854.0 418.0Q1880 394 1880 358V102Q1880 66 1854.0 42.0Q1828 18 1792 18H1708V-70Q1708 -138 1658.0 -188.0Q1608 -238 1536 -238H344Q272 -238 222.0 -188.0Q172 -138 172 -70V18H88Q52 18 26.0 42.0Q0 66 0 102V358Q0 394 26.0 418.0Q52 442 88 442H172Q172 605 252 742Q330 877 470 960Q607 1042 768 1042H856V1150Q816 1169 792 1210Q768 1250 768 1298Q768 1366 818.0 1416.0Q868 1466 940 1466ZM556 530Q467 530 406 466Q344 401 344 314Q344 226 406.0 164.0Q468 102 556.0 102.0Q644 102 706.0 164.0Q768 226 768 314Q768 401 706 466Q645 530 556 530ZM1324 530Q1235 530 1174 466Q1112 401 1112 314Q1112 226 1174.0 164.0Q1236 102 1324.0 102.0Q1412 102 1474.0 164.0Q1536 226 1536 314Q1536 401 1474 466Q1413 530 1324 530Z"/></g>
+    <text x="356.6" y="376" font-size="12"><tspan fill="#5fff87">▸2</tspan><tspan fill="#e8e3f2"> ✓4</tspan><tspan fill="#ffaf5f"> !1</tspan><tspan fill="#565073"> ~1</tspan></text>
+    <path d="M37 372 h-4 a6 6 0 0 0 -6 6 v11 a6 6 0 0 0 6 6 h4" stroke="#565073" stroke-width="1.3" fill="none"/>
+    <text x="35" y="400" fill="#875fff" font-weight="bold">❯</text>
+    <text x="51" y="400"></text>
+    <rect x="51" y="388" width="2.5" height="15" fill="#ffaf5f"><animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/></rect>
+  </g>
   </g>
 </svg>
