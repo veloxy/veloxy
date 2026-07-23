@@ -31,6 +31,7 @@ THEME = {
     'cya':  ('#0e9494', '#5fe7e7'),
     'yel':  ('#b58a00', '#ffe787'),
     'pill': ('#f6f8fa', '#21262d'),   # Primer canvas subtle
+    'cap':  ('#e7ebf0', '#2d333b'),   # icon section, one step deeper
 }
 
 CUBE = 'M78.549 28.899L54 14.725a8 8 0 0 0-8 0L21.451 28.899a8 8 0 0 0-4 6.928v28.348a8.003 8.003 0 0 0 4 6.929L46 85.275a8.001 8.001 0 0 0 8 0l24.549-14.172c2.475-1.43 4-4.07 4-6.929V35.827a8.002 8.002 0 0 0-4-6.928zM50 21.653l20.549 11.865-20.547 11.863-20.551-11.863L50 21.653zM25.451 64.175V40.446L46 52.31v23.728L25.451 64.175zM54 76.037V52.311l20.549-11.863v23.728L54 76.037z'
@@ -46,7 +47,7 @@ def style_block():
             f'      .conn{{stroke:{THEME["mut"][1]}}}\n'
             f'    }}\n  </style>')
 
-def glyph_icon(key, cap_x, cap_cy, target, color):
+def glyph_icon(key, cap_x, cap_cy, target, klass):
     g = G[key]
     x0,y0,x1,y1 = g['bounds']
     w, h = x1-x0, y1-y0
@@ -54,11 +55,11 @@ def glyph_icon(key, cap_x, cap_cy, target, color):
     tx = cap_x + 13 - (x0 + w/2)*s
     ty = cap_cy + (y0 + h/2)*s
     return (f'<g transform="translate({tx:.2f} {ty:.2f}) scale({s:.5f} -{s:.5f})">'
-            f'<path fill="{color}" d="{g["path"]}"/></g>')
+            f'<path class="{klass}" d="{g["path"]}"/></g>')
 
 def info_line(y, label, value):
     tl = len(label)*CW
-    return (f'    <text x="{INFO_X}" y="{y}"><tspan class="pink" font-weight="bold" '
+    return (f'    <text x="{INFO_X}" y="{y}"><tspan class="pur" font-weight="bold" '
             f'textLength="{tl:.1f}" lengthAdjust="spacingAndGlyphs">{esc(label)}</tspan>'
             f'<tspan x="{INFO_X + 11*CW:.1f}" class="fg">{esc(value)}</tspan></text>')
 
@@ -75,29 +76,29 @@ def typing_clip(cid, x, yc, nchars, begin, dur):
 PSTART = X0 + 16
 PH = 18; CAPW = 26; PF = 12; PCW = 7.2
 
-def seg(x, y, cap_color, icon_key, icon_size, label_svg, label_chars):
+def seg(x, y, icon_class, icon_key, icon_size, label_svg, label_chars):
     lw = label_chars*PCW
     total = CAPW + 8 + lw + 9
     ry = y - 13
     cap_cy = ry + PH/2
     out = []
     out.append(f'    <rect x="{x+13}" y="{ry}" width="{total-13:.0f}" height="{PH}" rx="9" class="pill"/>')
-    out.append(f'    <rect x="{x}" y="{ry}" width="{CAPW}" height="{PH}" rx="9" fill="{cap_color}"/>')
-    out.append('    ' + glyph_icon(icon_key, x, cap_cy, icon_size, INK))
+    out.append(f'    <rect x="{x}" y="{ry}" width="{CAPW}" height="{PH}" rx="9" class="cap"/>')
+    out.append('    ' + glyph_icon(icon_key, x, cap_cy, icon_size, icon_class))
     out.append(f'    <text x="{x+CAPW+8}" y="{y}" font-size="{PF}">{label_svg}</text>')
     return '\n'.join(out), x + total + 8
 
 def pills_block(yp, yc, cmd_svg, cursor=False, clip=None):
     parts = []
     x = PSTART
-    s, x = seg(x, yp, PURC, 'folder', 11, '<tspan class="fg">veloxy</tspan>', 6); parts.append(s)
+    s, x = seg(x, yp, 'pur', 'folder', 11, '<tspan class="fg">veloxy</tspan>', 6); parts.append(s)
     git_label = '<tspan class="fg">main</tspan><tspan class="orn"> !2+1</tspan>'
-    s, x = seg(x, yp, PINKC, 'branch', 12, git_label, 9); parts.append(s)
-    s, x = seg(x, yp, GRNC, 'php', 13, '<tspan class="fg">8.4</tspan>', 3); parts.append(s)
+    s, x = seg(x, yp, 'pink', 'branch', 12, git_label, 9); parts.append(s)
+    s, x = seg(x, yp, 'grn', 'php', 13, '<tspan class="fg">8.4</tspan>', 3); parts.append(s)
     # agent status: running / completed / blocked / idle
     agents = ('<tspan class="grn">▸2</tspan><tspan class="fg"> ✓4</tspan>'
               '<tspan class="orn"> !1</tspan><tspan class="mut"> ~1</tspan>')
-    s, x = seg(x, yp, CYAC, 'robot', 13, agents, 11); parts.append(s)
+    s, x = seg(x, yp, 'cya', 'robot', 13, agents, 11); parts.append(s)
     # connector: pill left edge -> down -> hooks into arrow mid-height
     parts.append(f'    <path d="M{PSTART-3} {yp-4} h-4 a6 6 0 0 0 -6 6 v{yc-yp-13} a6 6 0 0 0 6 6 h4" '
                  f'class="conn" stroke-width="1.3" fill="none"/>')
@@ -130,8 +131,8 @@ L.append(f'  <g class="pur" transform="translate({tx:.1f} {ty:.1f}) scale({s})">
          f'dur="5s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" '
          f'keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>'
          f'<path d="{CUBE}"/></g></g>')
-L.append(f'    <text x="{INFO_X}" y="121"><tspan class="pink" font-weight="bold">veloxy@github</tspan></text>')
-L.append(f'    <text x="{INFO_X}" y="142" textLength="{13*CW:.1f}" lengthAdjust="spacingAndGlyphs" class="pink">─────────────</text>')
+L.append(f'    <text x="{INFO_X}" y="121"><tspan class="pur" font-weight="bold">veloxy@github</tspan></text>')
+L.append(f'    <text x="{INFO_X}" y="142" textLength="{13*CW:.1f}" lengthAdjust="spacingAndGlyphs" class="pur">─────────────</text>')
 rows = [("OS:","macOS"),("Uptime:","15+ years on GitHub"),("Shell:","nushell"),
         ("Editor:","PhpStorm"),("Terminal:","Ghostty"),
         ("Languages:","PHP · JS/TS · a long tail of others"),
