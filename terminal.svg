@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 45 700 366" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14">
   <style>
-    .fg{fill:#2a2440}
-    .mut{fill:#8a84a3}
+    .fg{fill:#1f2328}
+    .mut{fill:#656d76}
     .pink{fill:#d61f9c}
     .pur{fill:#7c53f4}
     .pur2{fill:#6f3ff5}
@@ -9,11 +9,11 @@
     .orn{fill:#d97706}
     .cya{fill:#0e9494}
     .yel{fill:#b58a00}
-    .pill{fill:#eceaf6}
-    .conn{stroke:#8a84a3}
+    .pill{fill:#f6f8fa}
+    .conn{stroke:#656d76}
     @media (prefers-color-scheme: dark) {
-      .fg{fill:#e8e3f2}
-      .mut{fill:#565073}
+      .fg{fill:#e6edf3}
+      .mut{fill:#7d8590}
       .pink{fill:#ff5fd7}
       .pur{fill:#a78bff}
       .pur2{fill:#875fff}
@@ -21,8 +21,8 @@
       .orn{fill:#ffaf5f}
       .cya{fill:#5fe7e7}
       .yel{fill:#ffe787}
-      .pill{fill:#26203a}
-      .conn{stroke:#565073}
+      .pill{fill:#21262d}
+      .conn{stroke:#7d8590}
     }
   </style>
   <g xml:space="preserve" class="fg">
