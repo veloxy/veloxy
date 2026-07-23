@@ -1,41 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 376" font-family="SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14">
-  <!-- window -->
-  <rect x="0.5" y="0.5" width="699" height="375" rx="10" fill="#161b22" stroke="#30363d"/>
-  <!-- titlebar -->
-  <path d="M0.5 10.5 a10 10 0 0 1 10 -10 h679 a10 10 0 0 1 10 10 v29 h-699 z" fill="#21262d"/>
-  <line x1="0.5" y1="39.5" x2="699.5" y2="39.5" stroke="#30363d"/>
-  <circle cx="22" cy="20" r="6" fill="#ff5f57"/>
-  <circle cx="42" cy="20" r="6" fill="#febc2e"/>
-  <circle cx="62" cy="20" r="6" fill="#28c840"/>
-  <text x="350" y="25" text-anchor="middle" fill="#7d8590" font-size="12">ghostty — veloxy@github: ~</text>
+  <rect x="0.5" y="0.5" width="699" height="375" rx="10" fill="#171221" stroke="#3d2e5c"/>
+  <path d="M0.5 10.5 a10 10 0 0 1 10 -10 h679 a10 10 0 0 1 10 10 v29 h-699 z" fill="#1f1830"/>
+  <line x1="0.5" y1="39.5" x2="699.5" y2="39.5" stroke="#3d2e5c"/>
+  <circle cx="22" cy="20" r="6" fill="#ff5f5f"/>
+  <circle cx="42" cy="20" r="6" fill="#ffd75f"/>
+  <circle cx="62" cy="20" r="6" fill="#5fff87"/>
+  <text x="350" y="25" text-anchor="middle" fill="#565073" font-size="12">ghostty — veloxy@github: ~</text>
 
-  <g xml:space="preserve" fill="#e6edf3">
-    <!-- prompt: neofetch -->
-    <text x="24" y="72"><tspan fill="#3fb950">veloxy@github</tspan>:<tspan fill="#58a6ff">~</tspan>&gt; neofetch</text>
+  <g fill="#a78bff" transform="translate(17.0 77.4) scale(2.4)"><path d="M78.549 28.899L54 14.725a8 8 0 0 0-8 0L21.451 28.899a8 8 0 0 0-4 6.928v28.348a8.003 8.003 0 0 0 4 6.929L46 85.275a8.001 8.001 0 0 0 8 0l24.549-14.172c2.475-1.43 4-4.07 4-6.929V35.827a8.002 8.002 0 0 0-4-6.928zM50 21.653l20.549 11.865-20.547 11.863-20.551-11.863L50 21.653zM25.451 64.175V40.446L46 52.31v23.728L25.451 64.175zM54 76.037V52.311l20.549-11.863v23.728L54 76.037z"/></g>
 
-    <!-- logo column -->
-    <g fill="#56d4dd">
-      <text x="24" y="114">           __</text>
-      <text x="24" y="135"> _  _____ / /__ __ ____ __</text>
-      <text x="24" y="156">| |/ / -_) / _ \\ \ / // /</text>
-      <text x="24" y="177">|___/\__/_/\___/_\_\\_, /</text>
-      <text x="24" y="198">                   /___/</text>
-    </g>
-
-    <!-- info column -->
-    <text x="270" y="114"><tspan fill="#56d4dd" font-weight="bold">veloxy@github</tspan></text>
-    <text x="270" y="135"><tspan fill="#56d4dd">─────────────</tspan></text>
-    <text x="270" y="156"><tspan fill="#56d4dd" font-weight="bold">OS:</tspan>        macOS</text>
-    <text x="270" y="177"><tspan fill="#56d4dd" font-weight="bold">Uptime:</tspan>    15+ years on GitHub</text>
-    <text x="270" y="198"><tspan fill="#56d4dd" font-weight="bold">Shell:</tspan>     nushell</text>
-    <text x="270" y="219"><tspan fill="#56d4dd" font-weight="bold">Editor:</tspan>    PhpStorm</text>
-    <text x="270" y="240"><tspan fill="#56d4dd" font-weight="bold">Terminal:</tspan>  Ghostty</text>
-    <text x="270" y="261"><tspan fill="#56d4dd" font-weight="bold">Languages:</tspan> PHP · JS/TS · a long tail of others</text>
-    <text x="270" y="282"><tspan fill="#56d4dd" font-weight="bold">Locale:</tspan>    nl_BE.UTF-8 · en_US.UTF-8</text>
-
-    <!-- prompt: http get -->
-    <text x="24" y="324"><tspan fill="#3fb950">veloxy@github</tspan>:<tspan fill="#58a6ff">~</tspan>&gt; http get https://sourcebox.be</text>
-    <!-- prompt: cursor -->
-    <text x="24" y="345"><tspan fill="#3fb950">veloxy@github</tspan>:<tspan fill="#58a6ff">~</tspan>&gt; <tspan fill="#e6edf3">▌<animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+  <g xml:space="preserve" fill="#e8e3f2">
+    <text x="24" y="72"><tspan fill="#5fff87">veloxy@github</tspan><tspan fill="#e8e3f2">:</tspan><tspan fill="#875fff">~</tspan><tspan fill="#e8e3f2">&gt; </tspan><tspan fill="#e8e3f2">neofetch</tspan></text>
+    <text x="270" y="114"><tspan fill="#ff5fd7" font-weight="bold">veloxy@github</tspan></text>
+    <text x="270" y="135" textLength="109.2" lengthAdjust="spacingAndGlyphs" fill="#ff5fd7">─────────────</text>
+    <text x="270" y="156"><tspan fill="#ff5fd7" font-weight="bold" textLength="25.2" lengthAdjust="spacingAndGlyphs">OS:</tspan><tspan x="362.4" fill="#e8e3f2">macOS</tspan></text>
+    <text x="270" y="177"><tspan fill="#ff5fd7" font-weight="bold" textLength="58.8" lengthAdjust="spacingAndGlyphs">Uptime:</tspan><tspan x="362.4" fill="#e8e3f2">15+ years on GitHub</tspan></text>
+    <text x="270" y="198"><tspan fill="#ff5fd7" font-weight="bold" textLength="50.4" lengthAdjust="spacingAndGlyphs">Shell:</tspan><tspan x="362.4" fill="#e8e3f2">nushell</tspan></text>
+    <text x="270" y="219"><tspan fill="#ff5fd7" font-weight="bold" textLength="58.8" lengthAdjust="spacingAndGlyphs">Editor:</tspan><tspan x="362.4" fill="#e8e3f2">PhpStorm</tspan></text>
+    <text x="270" y="240"><tspan fill="#ff5fd7" font-weight="bold" textLength="75.6" lengthAdjust="spacingAndGlyphs">Terminal:</tspan><tspan x="362.4" fill="#e8e3f2">Ghostty</tspan></text>
+    <text x="270" y="261"><tspan fill="#ff5fd7" font-weight="bold" textLength="84.0" lengthAdjust="spacingAndGlyphs">Languages:</tspan><tspan x="362.4" fill="#e8e3f2">PHP · JS/TS · a long tail of others</tspan></text>
+    <text x="270" y="282"><tspan fill="#ff5fd7" font-weight="bold" textLength="58.8" lengthAdjust="spacingAndGlyphs">Locale:</tspan><tspan x="362.4" fill="#e8e3f2">nl_BE.UTF-8 · en_US.UTF-8</tspan></text>
+    <text x="24" y="324"><tspan fill="#5fff87">veloxy@github</tspan><tspan fill="#e8e3f2">:</tspan><tspan fill="#875fff">~</tspan><tspan fill="#e8e3f2">&gt; </tspan><tspan fill="#e8e3f2">http get https://sourcebox.be</tspan></text>
+    <text x="24" y="345"><tspan fill="#5fff87">veloxy@github</tspan><tspan fill="#e8e3f2">:</tspan><tspan fill="#875fff">~</tspan><tspan fill="#e8e3f2">&gt; </tspan><tspan fill="#ff5fd7">▌<animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/></tspan></text>
   </g>
 </svg>
